@@ -1,0 +1,572 @@
+
+    .upper-bar{
+        background-color: #08526d;
+        color: #fff;
+    }
+    .upper-bar .mar{
+        margin: 15px 0;
+    }
+    @media(max-width:576px){
+    .upper-bar .mar{
+        margin-bottom: 0px;
+        }
+    }
+
+    .get-quote{
+        padding: 2px 10px;
+        display: inline-block;
+        border: 1px solid #ec1c23;
+        margin-left: 20px;
+    }
+     @media(max-width:576px){
+    .upper-bar .get-quote{
+        border: none;
+        margin-left: 5px;
+        }
+    }
+    /* start navbar ----------------------------------------------------*/
+   
+    .navbar >.container{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+    }
+    .navbar-brand span:first-child{
+        color: #ec1c23;
+        font-weight: bold;
+    }
+    .navbar-brand span:last-child{
+        color: #08526d;
+        font-weight: bold;
+    }
+    .navbar-brand >span{
+        font-weight: bolder;
+        font-size: 30px;
+    }
+    .navbar-nav .nav-link{
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-left: 20px;
+        color: #08526d !important;
+        font-weight: bold;
+    }
+    .navbar-nav .active> .nav-link{
+        color: #ec1c23 !important;
+    }
+    .navbar-nav .dropdown-menu .dropdown-item{
+        color: #08526d;
+        font-weight:bolder; 
+     }
+     .navbar-nav .dropdown-menu .active{
+         color: #ec1c23;
+         background: none;
+     }
+    /* end nav bar */
+    /* start section slider --------------------------------------------------------*/
+    .slider{
+        background-color: #ddd;
+        margin: 0px;
+    }
+    .slider .carousel-inner{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+   
+    .slider .carousel-inner h1{
+        position: absolute;
+        color: #fff;
+        z-index: 3;
+        font-size: 55px;
+        max-width: 900px;
+        line-height: 1.5;
+        left:38px;
+    }
+     @media ( max-width : 768px ){
+    .slider .carousel-inner h1{
+            text-align: center;
+            font-size: 40px;
+            max-width: 100%;
+            left: auto;
+        }
+    }
+      @media ( max-width : 992px ){
+    .slider .carousel-inner h1{
+            font-size: 40px;
+            max-width: 100%;
+        }
+    }
+    .slider .carousel-inner h1 span{
+        background-color: #ff363d;
+        color: #fff;
+        padding: 2px 10px;
+        display: inline-block;
+    }
+    /* over lay بيققي فوق المحتوي ملوش دعوه بالي تحتو  */
+    .slider .carousel-inner .overlay{
+        position: absolute;
+        width: 100%;
+        height:100%;
+        top: 0px;
+        left: 0;
+        background-color: rgba(0, 0, 0,.5);
+        z-index:2;
+    }
+    .slider .carousel-item{
+        background-size: cover;
+        background-position: center;
+    }
+    .slider .carousel1{ 
+        background-image: url(../img/analyzing-brainstorming-business-people-1124062.jpg);
+    }
+    .slider .carousel2{
+         background-image: url(../img/7.jpg);
+    }        
+    .slider .carousel3{
+         background-image: url(../img/adults-brainstorming-desk-1595385.jpg);
+    }
+    /* ---------------end slider */
+    /* ------------------------------------------------------ start section features */
+    .features{
+        padding: 50px 0px;
+    }
+    .features h2{
+        color: #08526d;
+        font-size: 50px;
+        font-weight: bolder;
+        margin-bottom: 100px;
+    }
+    .features i{
+        background-color: #ff363d;
+        color: #fff;
+        padding: 12px;
+         margin-bottom: 10px;
+    }
+    .features h4{
+        color: #08526d;
+    }
+    .features p{
+        color: #989898;
+        margin-bottom: 40px;
+    }
+    /* ------------------------------------------------------ end section features */
+    /* <!-- ---------------------------------------------------------start section Company Overview --> */
+    .overview{
+        padding:80px 0;
+        background-color: #f0f5f7;
+    }
+    .overview h2{
+        font-size: 30px;
+        font-weight: bolder;
+        margin-bottom: 30px;
+    }
+     @media ( max-width : 992px ){
+          .overview h2{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+     }
+    .overview p{
+        width: 80%;
+        margin: 0 auto 15px;
+        line-height: 2;
+        color: #6a6a6a;
+    }
+
+     @media ( max-width : 992px ){
+         .overview p{
+        width: 100%;
+    }
+     }
+    .overview h4{
+        letter-spacing: 2px;
+        font-weight: normal;
+        color: #7d7c7c;
+        margin-bottom: 40px;
+    }
+     @media ( max-width : 992px ){
+         .overview h4{
+        font-size:20px;
+        margin-bottom: 15px;
+
+    }
+    }
+    .overview button{
+        background-color: #ff363d;
+        color: #fff;
+        border: 1px solid #ff363d;
+        font-weight: bold;
+        padding: 10px 30px;
+    }
+    /* <!-- ---------------------------------------------------------end section Company Overview --> */
+    /* <!-- --------------------------------------start section Featured-Work --> */
+    .Featured-Work{
+        padding:80px 0;
+    }
+        .Featured-Work  h2{
+        font-size: 50px;
+        text-transform: uppercase;
+        font-weight: bolder;
+        margin-bottom: 20px;
+    }
+    .Featured-Work p{
+        width: 80%;
+        margin: 0 auto 15px;
+        line-height: 1.6;
+        color: #6a6a6a;
+    }
+    .Featured-Work ul{
+        margin-top: 40px;
+        margin: 50px;
+    }
+    .Featured-Work ul li{
+        color: #08526d;
+        border: 2px solid #08526d;
+        padding: 10px 20px !important;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        transition: all .2s ease-in-out;
+    }
+    .Featured-Work ul li.active,
+    .Featured-Work ul li:hover{
+        color: #fff;
+        background-color: #ff363d;
+        border: 2px solid #ff363d;
+    }
+    .Featured-Work ul li:hover{
+        cursor: pointer;
+    }
+    .Featured-Work .swer{
+        margin-top: 50px;
+    }
+    .Featured-Work .swer .row{
+    /*    مارجين بالسالب عشان يلغي اسكرول الي بالعرض الي عاملو row */
+        margin: 0px;
+    }
+    .Featured-Work .row .col-md {
+        padding: 0px;
+        transition: all .3s ease-in-out;
+    }
+    .Featured-Work .col-md img{
+        width: 100%;
+        height: 100%;
+    }
+    /* <!-- --------------------------------------end section Featured-Work --> */
+    /* <!-- ------------------------------------start section card latest-post --> */
+    .latest-post{
+        padding: 0px 0px 80px;
+    }
+    .latest-post  h2 {
+        font-size: 50px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .latest-post .myp {
+        width: 80%;
+        margin: 0 auto 45px;
+        line-height: 1.6;
+        font-size: 20px;
+        color: #6a6a6a;
+    }
+    .latest-post .card {
+        margin-bottom: 50px;
+    }
+    .latest-post .card .card-title{
+        font-size: 20px;
+        line-height: 1.5;
+        color: #08526d;
+    }
+    .latest-post .card p{
+        margin-bottom: 4px;
+    }
+    .latest-post .card .card-link{
+        color: #ff363d;
+        font-weight: bold;
+    }
+    /* <!-- ------------------------------------end section card latest-post --> */
+        /* <!-- ---------------------------------start section Testimonials اراء الزوار --> */
+    .Testimonials{
+        background-size: cover;
+        background-image: url(../img/3.jpg);
+        position: relative;
+    }
+    .Testimonials .container{
+        position: relative; 
+        z-index: 4;
+    }
+    .Testimonials .overlay{
+        position: absolute;
+        width: 100%;
+        height:100% ;
+        left: 0px;
+        top: 0px;
+        background-color: rgba(0, 0, 0,.6);
+        z-index:3 ;
+    }
+    .Testimonials .carousel-caption{
+        translate: 50%;
+    }
+    .Testimonials .carousel-caption img{
+        margin-bottom:20px;
+        width:  160px;
+    }
+    .Testimonials .carousel-caption h3{
+        font-weight:800;
+        margin-bottom: 0px;
+    }
+    .Testimonials .carousel-caption span{
+        font-size: 13px;
+        display: inline-block;
+        margin-bottom: 30px ;
+    }
+    .Testimonials a{
+        z-index: 5;
+    }
+    /* <!-- ---------------------------------end section Testimonials اراء الزوار --> */
+    /* <!-- ------------------------------------start section card Pricing-Table --> */
+    .Pricing-Table{
+        padding: 100px 0px 80px;
+        background-color: #f7f7f7;
+    }
+    .Pricing-Table .card-body{
+        padding: 0px;
+    }
+    .Pricing-Table  h2 {
+        font-size: 50px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .Pricing-Table .myp {
+        width: 80%;
+        margin: 0 auto 100px;
+        line-height: 1.6;
+        font-size: 20px;
+        color: #6a6a6a;
+    }
+     @media ( max-width : 992px ){
+        .Pricing-Table .myp {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    }
+    .Pricing-Table .card {
+        margin-bottom: 50px;
+    }
+    .Pricing-Table .card .card-title{
+        font-size: 25px;
+        line-height: 1.5;
+        color: #08526d;
+        margin-top: 40px;
+    }
+    .Pricing-Table .card .card-text{
+        background-color:#f7f7f7;
+        margin:30px 0px 10px;
+        color: #08526d;
+        padding: 10px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .Pricing-Table .card .card-text span{
+        font-size: 14px;
+        text-transform: uppercase
+    }
+    .Pricing-Table .list-group-item{
+        border:none;
+    }
+    .Pricing-Table .card .card-link{
+        color: #Fff;
+        font-weight: 600;
+        display: inline-block;
+        padding:4px 15px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        background-color: #ff363d;
+        font-size: 17px;
+    }
+    .Pricing-Table  .Corporate{
+        position: relative;
+        top: -16px;
+    }
+    .Pricing-Table  .Corporate .card-text{
+        background-color: #ff363d;
+        color: #Fff;
+    }
+    .Pricing-Table  .Corporate .card-link{
+        background-color: #08526d;
+    }
+    /* @media quiry screen of mobile------------------------ */
+    @media (max-width: 960px){ 
+        .Pricing-Table .Corporate{ top:0px;}
+    }
+    /* <!-- ------------------------------------end section card Pricing-Table --> */
+    /* <!-- ------------------------------------ start section Choose-Us --> */
+    .Choose-Us img {
+        width:100%;
+    }
+    .Choose-Us .info {
+        padding: 0;
+    }
+    .Choose-Us .info:last-child{
+        background-color: #08526d;
+        color: #Fff;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    .Choose-Us h2{
+        margin:30px;
+    }
+    .Choose-Us p{
+        margin:30px;
+        line-height: 2;
+        font-size: 18px;
+    }
+    .Choose-Us a{
+        display: inline-block;
+        padding: 8px 20px;
+        margin: 0 0 0 40px;
+        background-color: #ff363d;
+        color: #Fff;
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+        /* <!-- ------------------------------------ end section Choose-Us --> */
+        /* <!-- -----------------------------------------------------start section  Statistics --> */
+    .Statistics{
+            padding: 100px 0;
+            color: #08526d;
+    }
+    .Statistics .d-block{
+        font-size: 50px;
+        font-weight: bold;
+
+    }
+    .Statistics p {
+        color: #ff363d;
+        font-size: 20px;
+        margin: 0;
+        }
+    /* <!-- -----------------------------------------------------end section  Statistics --> */
+    /* <!--------------------------------------------------------start section Contact-Us --> */
+    .Contact-Us{
+        padding: 80px 0;
+        background-color: #ff363d;
+        color: #fff;
+        font-size: 22px;
+    }
+    .Contact-Us p{
+        margin: 0;
+    }
+    @media(max-width:768px){
+    .Contact-Us p{
+        margin-bottom: 40px;
+    }
+    }
+    .Contact-Us a{
+        color: #Fff;
+        border: 2px solid #fff;
+        padding: 6px 15px 8px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    /* <!--------------------------------------------------------end section Contact-Us --> */
+    /* <!--------------------------------------------------------start section footer --> */
+    .footer{
+        padding: 100px 0;
+    }
+    .footer .info h2{
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 40px; 
+
+    }
+    .footer .info h2 span:first-child{
+       
+         color: #08526d;
+    }
+    .footer .info h2 span:last-child{
+        color: #ec1c23;
+        font-weight: bold;
+       
+    }
+    .footer .info p{
+        line-height: 1.8;
+        color: rgb(134, 132, 132);
+    }
+   .footer .info a{
+        color: #08526d;
+        font-size: 18px;
+        font-weight: 600;
+   }
+   .footer .info a:before{
+      /* ------------------------------------font awesome before---------- */
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900; 
+        content: "\f138";
+        margin-right: 5px;
+         color: #08526d;
+
+   }
+    .footer .helpful-links h3,
+   .footer .contact h3{
+        margin-bottom:68px;
+        color: #08526d;
+        font-size: 22px;
+   }
+   @media(max-width:992px){
+        .footer .helpful-links h3,
+        .footer .contact h3{
+        margin-bottom:20px;
+        margin-top:20px;
+        font-size: 22px;
+   }
+     .footer .contact ul li {
+         margin-bottom: 5px;
+     }
+   }
+   .footer .helpful-links ul li::before{
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900; 
+        content: "\f054";
+        margin-right: 5px;
+         color: #08526d;
+   }
+   .footer .contact ul{
+       margin: 0px;
+   }
+    .footer .contact ul li{
+        margin-bottom: 24px;
+        color: #08526d;
+    }
+     @media(max-width:992px){
+     .footer .contact ul li {
+         margin-bottom: 5px;
+     }
+   }
+    /* <!--------------------------------------------------------end section footer --> */
+    /* <!--------------------------------------------------------start section Copyright --> */
+.copyright{
+    padding: 20px;
+    border-top: 1px solid rgb(212, 208, 208);
+}
+.copyright ul li a{
+    color: #777;
+    margin-left: 20px;
+}
+
+    /* <!--------------------------------------------------------end section Copyright --> */
+#btntop{
+    position: fixed;
+    right:10px;
+    bottom: 40px;
+    font-size: 22px;
+    width: 40px;
+    height:40px ;
+    background:#e74c3c;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+}
